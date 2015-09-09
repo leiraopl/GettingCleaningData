@@ -2,7 +2,7 @@
 library(dplyr)
 setwd("C:/Users/lrao/Documents/R/coursera/course3/UCI HAR Dataset")
 
-# Step 1: Merges the training and the test sets to create one data set.
+# Step 1: Read and combine the training and the test datasets.
 trainData <- read.table(file.path("train","X_train.txt"))
 testData <- read.table(file.path("test","X_test.txt")) 
 cData <- rbind(trainData, testData) 
