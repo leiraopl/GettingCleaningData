@@ -41,8 +41,8 @@ mean(): Mean value
 std(): Standard deviation
 
 ### List of Variables in the output dataset
-<br/>Subject
-<br/>Activity
+<br/>Subject (ID represents a group of 30 volunteers within an age bracket of 19-48 years)
+<br/>Activity  (six activities performed by subject (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) )
 <br/>tBodyAcc-mean()-X
 <br/>tBodyAcc-mean()-Y
 <br/>tBodyAcc-mean()-Z
