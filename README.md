@@ -7,11 +7,12 @@
 * Initial setup (load libraries, set working directory)
 * Step 1: Merges the training and the test sets to create one data set.
 <br/> Read in measure data, activity and subject from subfolders "train" and "test"
-<br/> Stack training and test datasets together
+<br/> Stack training and test datasets together, to get combined measure (cData), activity (Activity), and subject (Subject)
 * Step 2: Extracts only the measurements on the mean and standard deviation for each measurement.
-<br/> Read in the name of measures in features.txt
-<br/> Find the positions for all measures with "mean()" or "std()"
-<br/> Select only columns with mean and standard deviation from measure data
+<br/> Read in the name of measurements in features.txt
+<br/> Find the positions for all measures with text "mean()" or "std()"
+<br/> Select only columns with mean and standard deviation from measurement data (cData)
+<br/> Apply the text in features.txt to column names in measurement dataset (cData)
 * Step 3: Uses descriptive activity names to name the activities in the data set
 <br/> Read in Activity Labels
 <br/> Merge Labels with Activity vector, and only keep descriptive activity names
@@ -23,5 +24,3 @@
 * Step 6: export tidy data to text file
 <br/> Create a subfolder "Output" in current working directory, if it doesn't exist
 <br/> Export "tidyData" to text file "tidyData.txt"
-
-
