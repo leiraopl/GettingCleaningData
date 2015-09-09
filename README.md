@@ -5,7 +5,7 @@
 ###The code has 6 steps (by comments):
 
 * Initial setup (load libraries, set working directory)
-* Step 1: Read and combine the training and the test sets.
+* Step 1: Read and combine the training and the test datasets.
 <br/> Read in measure data, activity and subject from subfolders "train" and "test"
 <br/> Stack training and test datasets together, to get combined measure (cData), activity (Activity), and subject (Subject)
 * Step 2: Extracts only the measurements on the mean and standard deviation for each measurement.
